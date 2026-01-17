@@ -1,0 +1,17 @@
+<div class="styleBackground" style=@SpecialStyles>
+    @if(Flashes==true){
+        <div class="first-flash"></div>
+        <div class="second-flash"></div>
+    }
+    @ChildContent
+</div>
+
+@code
+{
+    [Parameter]
+    public RenderFragment? ChildContent {get;set;}
+    [Parameter]
+    public string? SpecialStyles {get;set;}
+    [Parameter]
+    public bool? Flashes {get;set;} = true;
+}

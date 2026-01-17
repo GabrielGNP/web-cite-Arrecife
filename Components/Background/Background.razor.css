@@ -1,0 +1,11 @@
+.styleBackground{
+    background-color: var(--patchBackground);
+    width: 100vw;
+    min-height: 500px;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

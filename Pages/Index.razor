@@ -1,0 +1,78 @@
+﻿@page "/"
+@using Web_Cite_Arrecife.Components;
+@using Web_Cite_Arrecife.Components.Background
+@using Web_Cite_Arrecife.Components.BackgroundFlashes
+@using Web_Cite_Arrecife.Components.Button
+@using Web_Cite_Arrecife.Components.Cards
+@using Web_Cite_Arrecife.Components.ColoredButton
+@using Web_Cite_Arrecife.Components.GradientRectangle
+@using Web_Cite_Arrecife.Components.NavBar
+@using Web_Cite_Arrecife.Components.SVGs
+
+
+
+
+
+<NavBar />
+<BackgroundFlashes SpecialStyles="height: calc(100vh - 100px);">
+    <div class="contentSpacing">
+        <div class="flex-column center">
+            <h1 class="center fs70">Tu refugio seguro para</h1>
+            <h1 class="center fs70 gradientText">credenciales digitales</h1>
+        </div>
+        <p class="fs20 pd50 pd-inline80 center">
+            Como un arrecife protege a las especies marinas, nuestro sistema protege tu información digital. Gestiona todas tus credenciales con encriptación avanzada en un ecosistema seguro.
+        </p>
+        <div class="flex-line center gap4">
+            <ColoredButton text="Descargar Gratis →"></ColoredButton>
+            <Button text="ver demo"></Button>
+        </div>
+    </div>
+</BackgroundFlashes>
+<Background>
+    <div class="contentSpacing">
+        <div class="flex-line center">
+            <h2 class="fs50 pd10">Características</h2>
+            <h2 class="fs50 gradientText">Potentes</h2>
+        </div>
+        <p class="fs20 pd-inline80 center">
+            Todo lo que necesitas para mantener tu vida digital segura y organizada
+        </p>
+        <div class="flex-line jc-spaceEvenly gap8 pd-block80 flex-wrap">
+            <SquareCard>
+                <GradientRectangle>
+                    <SVG_Shield></SVG_Shield>
+                </GradientRectangle>
+                <p class="fs20 tc-white fw600 pd-block20">Encriptación AES-256</p>
+                <p>Protección de alto nivel para todas las credenciales, asegurando que solo tú puedas acceder a tu información.</p>
+            </SquareCard>
+            <SquareCard>
+                <GradientRectangle>
+                    <SVG_Lock></SVG_Lock>
+                </GradientRectangle>
+                <p class="fs20 tc-white fw600 pd-block20">Gestión de Contraseñas</p>
+                <p>Almacena y organiza todas las credenciales de cuentas: nombres de usuarios, correos y contraseñas. Accede a toda la información de forma segura.</p>
+            </SquareCard>
+            <SquareCard>
+                <GradientRectangle>
+                    <SVG_Folder></SVG_Folder>
+                </GradientRectangle>
+                <p class="fs20 tc-white fw600 pd-block20">Archivos Seguros</p>
+                <p>Guarda documentos importantes y archivos sensibles con la misma protección que tus credenciales.</p>
+            </SquareCard>
+        </div>
+    </div>
+</Background>
+<BackgroundFlashes Flashes="false" SpecialStyles="padding-bottom: 80px">
+    <div class="flex-line contentSpacing gap16 ai-center" style="width:100%">
+        <div style="width: 50%;">
+            <h1 class="fs50 line-h40" style="width: 400px;">Seguridad como un <text class="gradientText">ecosistema de arrecifes</text></h1>
+            <p class="fs20 pd-block20">Los arrecifes de coral son ecosistemas naturales que protegen miles de especies. De la misma manera, Arrecife crea un entorno seguro y robusto para tus datos digitales, utilizando múltiples capas de protección.</p>
+        </div>
+        <div class="contentImage">
+            <SVG_Grid></SVG_Grid>
+        </div>
+    </div>
+</BackgroundFlashes>
+<Background></Background>
+<BackgroundFlashes Flashes="false"></BackgroundFlashes>

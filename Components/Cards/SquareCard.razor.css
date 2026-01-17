@@ -1,0 +1,13 @@
+.squareCard{
+    width: 310px;
+    height: 275px;
+    background: var(--background);
+    border-radius: calc(var(--radius) * 2);
+    padding: 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.squareCard:hover{
+    box-shadow: -2px 2px 5px color-mix(in oklch, var(--cyanColorBase) 50%, transparent), 
+                2px 2px 5px color-mix(in oklch, var(--purpleColorBase) 90%, transparent);    
+}

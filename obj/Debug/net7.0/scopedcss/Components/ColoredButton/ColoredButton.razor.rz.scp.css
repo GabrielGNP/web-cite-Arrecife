@@ -1,0 +1,8 @@
+.coloredButton[b-kupco6wh1v] {
+    background: linear-gradient(135deg,var(--cyanColorBase)0%,var(--purpleColorBase)100%);
+    color: white;
+    font-size: calc(0.85rem *1.2);
+    padding-block: calc(var(--spacing) * 3);
+    padding-inline: calc(var(--spacing) * 4);
+    border-radius: calc(var(--radius) - 2px);
+}

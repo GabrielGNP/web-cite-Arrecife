@@ -1,0 +1,124 @@
+/* /Components/BackgroundFlashes/BackgroundFlashes.razor.rz.scp.css */
+.styleBackground[b-y1ybs8mo8k]{
+    background-color: var(--background);
+    width: 100vw;
+    min-height: 500px;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-flash[b-y1ybs8mo8k]
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: color-mix(in oklab, var(--cyanColorBase) 10%, transparent);
+    filter: blur(4rem);
+}
+
+.second-flash[b-y1ybs8mo8k]{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background-color: color-mix(in oklab, var(--purpleColorBase) 10%, transparent);
+    filter: blur(4rem);
+}
+
+/* /Components/Background/Background.razor.rz.scp.css */
+.styleBackground[b-3aini647ok]{
+    background-color: var(--patchBackground);
+    width: 100vw;
+    min-height: 500px;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* /Components/Button/Button.razor.rz.scp.css */
+.coloredButton[b-wne60mb2ri] {
+    background: transparent;
+    border: 1px var(--black) solid;
+    color: white;
+    font-size: calc(0.85rem *1.2);
+    
+    padding-block: calc(var(--spacing) * 3);
+    padding-inline: calc(var(--spacing) * 4);
+    border-radius: calc(var(--radius) - 2px);
+
+    transition: 0.25s;
+}
+.coloredButton:hover[b-wne60mb2ri]{
+    background: color-mix(in oklab, var(--cyanColorBase) 60%, transparent);
+    color: var(--background);
+}
+/* /Components/Cards/SquareCard.razor.rz.scp.css */
+.squareCard[b-6g19xr893y]{
+    width: 310px;
+    height: 275px;
+    background: var(--background);
+    border-radius: calc(var(--radius) * 2);
+    padding: 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.squareCard:hover[b-6g19xr893y]{
+    box-shadow: -2px 2px 5px color-mix(in oklch, var(--cyanColorBase) 50%, transparent), 
+                2px 2px 5px color-mix(in oklch, var(--purpleColorBase) 90%, transparent);    
+}
+/* /Components/ColoredButton/ColoredButton.razor.rz.scp.css */
+.coloredButton[b-kupco6wh1v] {
+    background: linear-gradient(135deg,var(--cyanColorBase)0%,var(--purpleColorBase)100%);
+    color: white;
+    font-size: calc(0.85rem *1.2);
+    padding-block: calc(var(--spacing) * 3);
+    padding-inline: calc(var(--spacing) * 4);
+    border-radius: calc(var(--radius) - 2px);
+}
+/* /Components/GradientRectangle/GradientRectangle.razor.rz.scp.css */
+/* /Components/NavBar/NavBar.razor.rz.scp.css */
+.navBar[b-metm05gy16] {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    align-content: center;
+    z-index: 10;
+}
+.glass-effect[b-metm05gy16]{
+    backdrop-filter: blur(10px);
+    background: #ffffff0d;
+    border: 1px solid #ffffff1a;
+}
+.content-navBar[b-metm05gy16] {
+    height: 100%;
+    padding-block: calc(var(--spacing) * 4);
+    padding-inline: calc(var(--spacing) * 4);
+    display: flex;
+    justify-content: space-around;
+    margin-inline: auto;
+}
+.first-space-navBar[b-metm05gy16] {
+    display: flex;
+    align-items: center;
+    
+}
+.first-space-navBar .appName[b-metm05gy16] {
+    font-size: 25px;
+    margin-left: 10px;
+}
+.second-space-navBar[b-metm05gy16]{
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 8);
+}
