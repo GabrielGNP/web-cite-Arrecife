@@ -1,4 +1,4 @@
-<div class="styleBackground">
+<div class="styleBackground" style="@Styles" id=@Id>
     @ChildContent
 </div>
 
@@ -6,4 +6,10 @@
 {
     [Parameter]
     public RenderFragment? ChildContent {get;set;}
+
+    [Parameter]
+    public string? Styles {get; set;}
+
+    [Parameter]
+    public string? Id {get; set;}
 }

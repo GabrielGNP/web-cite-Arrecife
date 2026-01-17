@@ -833,6 +833,10 @@ C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arreci
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\BackgroundFlashes\BackgroundFlashes.razor.rz.scp.css
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\Cards\SquareCard.razor.rz.scp.css
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\GradientRectangle\GradientRectangle.razor.rz.scp.css
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\gml8qidce4-q0jy0emkfq.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\h2nhwah4ij-ktbucym3ki.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\fhbxigmtjw-cxp6kxk0zw.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\Web Cite Arrecife.sourcelink.json
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\Circle\Circle.razor.rz.scp.css
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\BackgroundLinearGradient\BackgroundLinearGradient.razor.rz.scp.css
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\BlackButton\BlackButton.razor.rz.scp.css
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\gml8qidce4-ti1udz4wjm.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\h2nhwah4ij-ss28sdwtni.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\fhbxigmtjw-onvq04hl4t.gz

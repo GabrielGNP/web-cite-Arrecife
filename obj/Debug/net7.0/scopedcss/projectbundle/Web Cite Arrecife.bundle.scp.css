@@ -34,6 +34,22 @@
     filter: blur(4rem);
 }
 
+/* /Components/BackgroundLinearGradient/BackgroundLinearGradient.razor.rz.scp.css */
+.backgroundLinearGradient[b-zsus72iwuf]{
+    background: var(--background);
+     background: linear-gradient(145deg,
+        color-mix(in oklch, var(--cyanColorBase) 25%, black),
+        color-mix(in oklch, var(--purpleColorBase) 25%, black)
+    );
+    width: 100vw;
+    min-height: 400px;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 /* /Components/Background/Background.razor.rz.scp.css */
 .styleBackground[b-3aini647ok]{
     background-color: var(--patchBackground);
@@ -45,6 +61,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+/* /Components/BlackButton/BlackButton.razor.rz.scp.css */
+.blackButton[b-wwqe3c333r]{
+    background: black;
+    color: white;
+    font-size: calc(0.85rem *1.2);
+    padding: 0px;
+    border-radius: calc(var(--radius) - 2px);
+    margin-block: 30px;
+    margin-inline: 10px;
 }
 /* /Components/Button/Button.razor.rz.scp.css */
 .coloredButton[b-wne60mb2ri] {
@@ -77,6 +103,22 @@
     box-shadow: -2px 2px 5px color-mix(in oklch, var(--cyanColorBase) 50%, transparent), 
                 2px 2px 5px color-mix(in oklch, var(--purpleColorBase) 90%, transparent);    
 }
+/* /Components/Circle/Circle.razor.rz.scp.css */
+.circle[b-0jy4qzao4r]{
+    border-radius: 100%;
+    background: var(--purpleColorBase);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 17px;
+    font-weight: 600;
+    color:var(--whiteText);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* /Components/ColoredButton/ColoredButton.razor.rz.scp.css */
 .coloredButton[b-kupco6wh1v] {
     background: linear-gradient(135deg,var(--cyanColorBase)0%,var(--purpleColorBase)100%);
@@ -87,6 +129,9 @@
     border-radius: calc(var(--radius) - 2px);
 }
 /* /Components/GradientRectangle/GradientRectangle.razor.rz.scp.css */
+.gradientRectangle[b-d6ic9p5wf9]{
+    position: relative;
+}
 /* /Components/NavBar/NavBar.razor.rz.scp.css */
 .navBar[b-metm05gy16] {
     position: fixed;

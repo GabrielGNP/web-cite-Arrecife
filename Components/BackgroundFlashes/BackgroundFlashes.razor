@@ -1,4 +1,4 @@
-<div class="styleBackground" style=@SpecialStyles>
+<div class="styleBackground" style=@SpecialStyles id=@Id>
     @if(Flashes==true){
         <div class="first-flash"></div>
         <div class="second-flash"></div>
@@ -14,4 +14,6 @@
     public string? SpecialStyles {get;set;}
     [Parameter]
     public bool? Flashes {get;set;} = true;
+    [Parameter]
+    public string? Id {get; set;}
 }

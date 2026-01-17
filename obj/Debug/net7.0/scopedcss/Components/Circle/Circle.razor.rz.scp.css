@@ -1,0 +1,15 @@
+.circle[b-0jy4qzao4r]{
+    border-radius: 100%;
+    background: var(--purpleColorBase);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 17px;
+    font-weight: 600;
+    color:var(--whiteText);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

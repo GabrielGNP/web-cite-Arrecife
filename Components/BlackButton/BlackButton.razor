@@ -1,0 +1,15 @@
+<button class="blackButton" style="height: @(Height+"px"); width:@(Width+"px")">
+    @ChildContent
+</button>
+
+@code{
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public string? Width {get; set;} = "50";
+    
+    [Parameter]
+    public int? Height {get; set;} = 50;
+
+}

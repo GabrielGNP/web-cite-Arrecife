@@ -1,0 +1,15 @@
+.backgroundLinearGradient{
+    background: var(--background);
+     background: linear-gradient(145deg,
+        color-mix(in oklch, var(--cyanColorBase) 25%, black),
+        color-mix(in oklch, var(--purpleColorBase) 25%, black)
+    );
+    width: 100vw;
+    min-height: 400px;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

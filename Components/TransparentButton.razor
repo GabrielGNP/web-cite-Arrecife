@@ -1,8 +1,11 @@
-<button class="transparentButton">
+<button class="transparentButton" onclick="@OnClick">
     <div>@ChildContent</div>
 </button>
 
 @code{
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public EventCallback OnClick {get; set;}
 }

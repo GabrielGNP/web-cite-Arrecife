@@ -1,5 +1,6 @@
 ﻿@using Web_Cite_Arrecife.Components.ColoredButton;
 @using Web_Cite_Arrecife.Components.SVGs
+@inject NavigationManager Nav
 
 <div class="navBar glass-effect">
     <div class="content-navBar">
@@ -8,9 +9,9 @@
             <p class="gradientText appName">Arrecife</p>
         </div>
         <div class="second-space-navBar">
-            <a class="aNav">Características</a>
-            <a class="aNav">Seguridad</a>
-            <a class="aNav">Cómo Funciona</a>
+            <a class="aNav" href="" @onclick='() => GoToSection("id_features")'>Características</a>
+            <a class="aNav" href="" @onclick='() => GoToSection("id_security")'>Seguridad</a>
+            <a class="aNav" href="" @onclick='() => GoToSection("id_working")'>Cómo Funciona</a>
             <TransparentButton>
                 <SVG_Sun></SVG_Sun>
             </TransparentButton>
@@ -20,5 +21,7 @@
 
 </div>
 @code {
-
+    void GoToSection(string id){
+        Nav.NavigateTo($"/#{id}", forceLoad:true);
+    }
 }

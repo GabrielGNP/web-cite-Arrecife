@@ -2,15 +2,16 @@
 @using Web_Cite_Arrecife.Components;
 @using Web_Cite_Arrecife.Components.Background
 @using Web_Cite_Arrecife.Components.BackgroundFlashes
+@using Web_Cite_Arrecife.Components.BackgroundLinearGradient
+@using Web_Cite_Arrecife.Components.BlackButton
 @using Web_Cite_Arrecife.Components.Button
 @using Web_Cite_Arrecife.Components.Cards
+@using Web_Cite_Arrecife.Components.Circle
 @using Web_Cite_Arrecife.Components.ColoredButton
 @using Web_Cite_Arrecife.Components.GradientRectangle
 @using Web_Cite_Arrecife.Components.NavBar
 @using Web_Cite_Arrecife.Components.SVGs
-
-
-
+@inject NavigationManager Nav
 
 
 <NavBar />
@@ -29,7 +30,7 @@
         </div>
     </div>
 </BackgroundFlashes>
-<Background>
+<Background Id="id_features">
     <div class="contentSpacing">
         <div class="flex-line center">
             <h2 class="fs50 pd10">Características</h2>
@@ -63,16 +64,143 @@
         </div>
     </div>
 </Background>
-<BackgroundFlashes Flashes="false" SpecialStyles="padding-bottom: 80px">
-    <div class="flex-line contentSpacing gap16 ai-center" style="width:100%">
+<BackgroundFlashes Id="id_security" Flashes="false" SpecialStyles="padding-bottom: 80px; padding-inline:100px; box-sizing: border-box;">
+    <div class="flex-line gap16 ai-center" style="width:100%">
         <div style="width: 50%;">
             <h1 class="fs50 line-h40" style="width: 400px;">Seguridad como un <text class="gradientText">ecosistema de arrecifes</text></h1>
             <p class="fs20 pd-block20">Los arrecifes de coral son ecosistemas naturales que protegen miles de especies. De la misma manera, Arrecife crea un entorno seguro y robusto para tus datos digitales, utilizando múltiples capas de protección.</p>
+            <p class="flex-line ai-center pd5">
+                <SVG_CircleCheck Styles="color:var(--cyanColorBase); padding:10px" />
+                Zero-knowledge architecture
+            </p>
+            <p class="flex-line ai-center pd5">
+                <SVG_CircleCheck Styles="color:var(--cyanColorBase); padding:10px" />
+                Almacenamiento local seguro
+            </p>
+            <p class="flex-line ai-center pd5">
+                <SVG_CircleCheck Styles="color:var(--cyanColorBase); padding:10px" />
+                Sin recopilación de datos personales
+            </p>
+            <p class="flex-line ai-center pd5">
+                <SVG_CircleCheck Styles="color:var(--cyanColorBase); padding:10px" />
+                Sin comunicación con servidores ni por red
+            </p>
+            
         </div>
         <div class="contentImage">
             <SVG_Grid></SVG_Grid>
         </div>
     </div>
 </BackgroundFlashes>
-<Background></Background>
-<BackgroundFlashes Flashes="false"></BackgroundFlashes>
+<Background Id="id_working">
+    <div class="contentSpacing totalWidth boxSizing-border">
+        <div class="flex-line center">
+            <h2 class="fs50 pd10">Comienza en <text class="fs50 gradientText">minutos</text></h2>
+        </div>
+        <p class="fs20 pd-inline80 center">
+            Proteger tu información nunca fue tan simple
+        </p>
+        <div class="flex-line jc-spaceBetween pd-block80 gap4 posRelative">
+            <div class="stapeLine"></div>
+            <div class="flex-column center flex1 height100ps">
+                <GradientRectangle Height=75 Width=75>
+                    <SVG_Download Color="var(--whiteText)" Width=40 Height=40/>
+                    <Circle>01</Circle>
+                </GradientRectangle>
+                <p class="tc-white fs20 fw600 pd10">Descarga la App</p>
+                <p>Instalación rápida y gratuita.</p>
+            </div>
+            <div class="flex-column center flex1 height100ps">
+                <GradientRectangle Height=75 Width=75>
+                    <SVG_Lock Color="var(--whiteText)" Width=40 Height=40/>
+                    <Circle>02</Circle>
+                </GradientRectangle>
+                <p class="tc-white fs20 fw600 pd10">Crea tu Bóveda</p>
+                <p>Escribe tu contraseña maestra para crear tu bóveda.</p>
+            </div>
+            <div class="flex-column center flex1 height100ps">
+                <GradientRectangle Height=75 Width=75>
+                    <SVG_Shield Color="var(--whiteText)" Width=40 Height=40></SVG_Shield>
+                    <Circle>03</Circle>
+                </GradientRectangle>
+                <p class="tc-white fs20 fw600 pd10">Añade Credenciales</p>
+                <p>Guarda de forma organizada la información sobre tus cuentas.</p>
+            </div>
+            <div class="flex-column center flex1 height100ps">
+                <GradientRectangle Height=75 Width=75>
+                    <SVG_Phone Color="var(--whiteText)" Width=40 Height=40/>
+                    <Circle>04</Circle>
+                </GradientRectangle>
+                <p class="tc-white fs20 fw600 pd10">Accede Fácilmente</p>
+                <p>Usa tus credenciales cuando las necesites con total seguridad.</p>
+            </div>
+        </div>
+        
+    </div>
+</Background>
+<BackgroundLinearGradient>
+    <h2 class="fs50 pd10">Descarga <text class="gradientText">Arrecife</text> hoy</h2>
+    <p class="fs20">Mantén segura y accesible tu información con nuestro arrecife digital</p>
+    <div>
+        <BlackButton Height=40 Width="130">
+            <p class="tc-white flex-line center jc-spaceEvenly">
+                <SVG_Apple Height=15 Width=15/> 
+                App Store
+            </p>
+        </BlackButton>
+        <BlackButton Height=40 Width="130">
+            <p class="tc-white flex-line center jc-spaceEvenly">
+                <SVG_Play Height=15 Width=15/>
+                Play Store
+            </p>
+        </BlackButton>
+    </div>
+</BackgroundLinearGradient>
+<Background Styles="min-height:200px; border-top: 1px solid color-mix(in oklch, var(--black) 100%, white)">
+    <div class="flex-line contentSpacing totalWidth ai-flexStart gap4">
+        <div class="flex1">
+            <div class="flex-line ai-center"><div class="iconApp"></div><p style="padding-left:5px" class="tc-white fw600 fs20"> Arrecife</p></div>
+            <p class="fs15 pd-block10">Tu regudio seguro para credenciales digitales.</p>
+        </div>
+        <div class="flex1 flex-column">
+            <p class="tc-white fw600 pd-block10 fs20">Producto</p>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => GoToSection("id_features")'>Características</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => GoToSection("id_security")'>Seguridad</a>
+            <a class="anchorHover tc-grey fs15 pd-block10">FAQ</a>
+        </div>
+        <div class="flex1 flex-column">
+            <p class="tc-white fw600 pd-block10 fs20">Compañia</p>
+            <a class="anchorHover tc-grey fs15 pd-block10">Sobre Nosotros</a>
+            <a class="anchorHover tc-grey fs15 pd-block10">Contacto</a>
+            <a class="anchorHover tc-grey fs15 pd-block10">Soporte</a>
+        </div>
+        <div class="flex1 flex-column">
+            <p class="tc-white fw600 pd-block10 fs20">Legal</p>
+            <a class="anchorHover tc-grey fs15 pd-block10">Privacidad</a>
+            <a class="anchorHover tc-grey fs15 pd-block10">Terminos</a>
+            <a class="anchorHover tc-grey fs15 pd-block10">Seguridad</a>
+        </div>
+    </div>
+    <div class="dividingLine"></div>
+    <div class="flex-line contentSpacing totalWidth jc-spaceBetween">
+        <p class="fs15">© 2026 Arrecife. Todos los derechos reservados.</p>
+        <div>
+            <a Class="anchorHover pd10" href="https://github.com/GabrielGNP" target="_blank" rel="noopener noreferrer">
+                <SVG_Github Width=20 Height=20 Color="inherit"/>
+            </a>
+            <a Class="anchorHover pd10" href="https://www.linkedin.com/in/gabriel-perero/" target="_blank" rel="noopener noreferrer">
+                <SVG_LinkedIn Width=20 Height=20 Color="inherit"/>
+            </a>
+            <a Class="anchorHover pd10">
+                <SVG_Mail Width=20 Height=20 Color="inherit"/>
+            </a>            
+        </div>
+    </div>
+</Background>
+
+@code {
+
+    void GoToSection(string id){
+        Nav.NavigateTo($"/#{id}", forceLoad:true);
+    }
+}

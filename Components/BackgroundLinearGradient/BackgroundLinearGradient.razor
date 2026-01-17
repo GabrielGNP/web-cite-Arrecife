@@ -1,0 +1,11 @@
+<div class="backgroundLinearGradient" style=@SpecialStyles>
+    @ChildContent
+</div>
+
+@code
+{
+    [Parameter]
+    public RenderFragment? ChildContent {get;set;}
+    [Parameter]
+    public string? SpecialStyles {get;set;}
+}
