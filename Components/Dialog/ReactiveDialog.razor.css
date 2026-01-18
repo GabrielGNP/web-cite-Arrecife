@@ -1,0 +1,50 @@
+
+.reactiveDialog{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    z-index: 20;
+    
+    background: color-mix(in oklch, black 50%, transparent);
+}
+.mainContent{
+    position: absolute;
+    width: var(--dialogDimension);
+    top: calc(50% - 100px);
+    height: 200px;
+    left: calc(50% - (var(--dialogDimension) / 2));
+    box-sizing: border-box;
+
+    padding: 30px;
+
+    background: linear-gradient(145deg,
+        color-mix(in oklch, var(--cyanColorBase) 25%, black),
+        color-mix(in oklch, var(--purpleColorBase) 25%, black)
+    );
+    box-shadow: -5px -5px 15px 0.5px color-mix(in oklch, var(--cyanColorBase) 30%, transparent),
+                5px 5px 15px 0.5px color-mix(in oklch, var(--purpleColorBase) 30%, transparent);
+    border-radius: var(--radius);
+
+    color:var(--text);
+}
+
+.closeButton{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+
+    width: 35px;
+    height: 35px;
+    background-color: var(--patchBackground);
+    border-radius: 100%;
+    padding: 0px;
+    
+    color: var(--text);
+    transition: 0.5s;
+}
+.closeButton:hover{
+    box-shadow: -5px -5px 10px 0.5px color-mix(in oklch, var(--cyanColorBase) 70%, transparent),
+                5px 5px 10px 0.5px color-mix(in oklch, var(--purpleColorBase) 70%, transparent);
+    color: var(--whiteText);
+}

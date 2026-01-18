@@ -1,6 +1,6 @@
 .backgroundLinearGradient[b-zsus72iwuf]{
     background: var(--background);
-     background: linear-gradient(145deg,
+    background: linear-gradient(145deg,
         color-mix(in oklch, var(--cyanColorBase) 25%, black),
         color-mix(in oklch, var(--purpleColorBase) 25%, black)
     );

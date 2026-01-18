@@ -1,7 +1,7 @@
 {
   "entryAssembly": "Web Cite Arrecife",
   "resources": {
-    "hash": "sha256-d34w3JVXBpc6PCqHeHIsyNNvgR8+B+kNdZOGl01t+BQ=",
+    "hash": "sha256-AOV4EsCqerxtccn3yEfbOim8kMrb8aKDJ9sc6MtKuiU=",
     "runtime": {
       "dotnet.js": "sha256-eaJTmow4t8eE7FZMZR5Ja41JMOefGCbIYDTdpclGsac=",
       "dotnet.timezones.blat": "sha256-gbATD5HDsHYtW8vdPYh9iSBY4O5CjvMeCSF5xXWF1xo=",
@@ -203,10 +203,10 @@
       "mscorlib.dll": "sha256-HYyp9hO+GKFyupcEiY1PxtBBXbHzefsO3Q8RiQTaNCA=",
       "netstandard.dll": "sha256-N5CcC3sLzGBesbmeJAp5bwxABN9u7SwkIO5qfFjzoik=",
       "System.Private.CoreLib.dll": "sha256-bJS1DJmhjP7PvegYG+Z8O9EDtRY78HKinA3LUMVLlSQ=",
-      "Web Cite Arrecife.dll": "sha256-y8O53M79F+PRRO+92Y182H9IE/VOKjrJJohR/eTpx08="
+      "Web Cite Arrecife.dll": "sha256-j7F1iCCszT171BdePTGR9B6nHfTiMruvKrLfHcqL6WI="
     },
     "pdb": {
-      "Web Cite Arrecife.pdb": "sha256-1A/06bLII7Xl5BOshk517MrnMBmYOyQrJkqnhIh52Io="
+      "Web Cite Arrecife.pdb": "sha256-uNlTQNM+s/2e4SjHm0WkpYgN97mDC9bMgK5pbcmQ5Bo="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

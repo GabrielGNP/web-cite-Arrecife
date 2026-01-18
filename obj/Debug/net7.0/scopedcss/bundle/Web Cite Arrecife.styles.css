@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .first-flash[b-y1ybs8mo8k]
@@ -37,7 +38,7 @@
 /* /Components/BackgroundLinearGradient/BackgroundLinearGradient.razor.rz.scp.css */
 .backgroundLinearGradient[b-zsus72iwuf]{
     background: var(--background);
-     background: linear-gradient(145deg,
+    background: linear-gradient(145deg,
         color-mix(in oklch, var(--cyanColorBase) 25%, black),
         color-mix(in oklch, var(--purpleColorBase) 25%, black)
     );
@@ -73,7 +74,7 @@
     margin-inline: 10px;
 }
 /* /Components/Button/Button.razor.rz.scp.css */
-.coloredButton[b-wne60mb2ri] {
+.ButtonTransparent[b-wne60mb2ri] {
     background: transparent;
     border: 1px var(--black) solid;
     color: white;
@@ -127,6 +128,57 @@
     padding-block: calc(var(--spacing) * 3);
     padding-inline: calc(var(--spacing) * 4);
     border-radius: calc(var(--radius) - 2px);
+}
+/* /Components/Dialog/ReactiveDialog.razor.rz.scp.css */
+
+.reactiveDialog[b-f1qvybxfvo]{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    z-index: 20;
+    
+    background: color-mix(in oklch, black 50%, transparent);
+}
+.mainContent[b-f1qvybxfvo]{
+    position: absolute;
+    width: var(--dialogDimension);
+    top: calc(50% - 100px);
+    height: 200px;
+    left: calc(50% - (var(--dialogDimension) / 2));
+    box-sizing: border-box;
+
+    padding: 30px;
+
+    background: linear-gradient(145deg,
+        color-mix(in oklch, var(--cyanColorBase) 25%, black),
+        color-mix(in oklch, var(--purpleColorBase) 25%, black)
+    );
+    box-shadow: -5px -5px 15px 0.5px color-mix(in oklch, var(--cyanColorBase) 30%, transparent),
+                5px 5px 15px 0.5px color-mix(in oklch, var(--purpleColorBase) 30%, transparent);
+    border-radius: var(--radius);
+
+    color:var(--text);
+}
+
+.closeButton[b-f1qvybxfvo]{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+
+    width: 35px;
+    height: 35px;
+    background-color: var(--patchBackground);
+    border-radius: 100%;
+    padding: 0px;
+    
+    color: var(--text);
+    transition: 0.5s;
+}
+.closeButton:hover[b-f1qvybxfvo]{
+    box-shadow: -5px -5px 10px 0.5px color-mix(in oklch, var(--cyanColorBase) 70%, transparent),
+                5px 5px 10px 0.5px color-mix(in oklch, var(--purpleColorBase) 70%, transparent);
+    color: var(--whiteText);
 }
 /* /Components/GradientRectangle/GradientRectangle.razor.rz.scp.css */
 .gradientRectangle[b-d6ic9p5wf9]{

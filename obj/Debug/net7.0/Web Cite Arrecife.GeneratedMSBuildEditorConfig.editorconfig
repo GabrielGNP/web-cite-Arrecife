@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19BcHBsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Arrecife.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19BcnJlY2lmZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Biometric.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19CaW9tZXRyaWMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -139,6 +143,10 @@ build_metadata.AdditionalFiles.CssScope = b-0jy4qzao4r
 [c:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/ColoredButton/ColoredButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xvcmVkQnV0dG9uXENvbG9yZWRCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kupco6wh1v
+
+[c:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/Dialog/ReactiveDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEaWFsb2dcUmVhY3RpdmVEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-f1qvybxfvo
 
 [c:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/GradientRectangle/GradientRectangle.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHcmFkaWVudFJlY3RhbmdsZVxHcmFkaWVudFJlY3RhbmdsZS5yYXpvcg==

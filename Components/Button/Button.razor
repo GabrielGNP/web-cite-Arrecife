@@ -1,8 +1,16 @@
-<button class="coloredButton hoverButton">@text</button>
+<button class="ButtonTransparent hoverButton" @onclick='@ExecuteActionButton'>
+    @text
+</button>
 
 
 @code{
     [Parameter]
     public string? text { get; set; }
 
+    [Parameter]
+    public EventCallback ActionButton {get; set;}
+
+    async Task ExecuteActionButton(){
+        await ActionButton.InvokeAsync();
+    }
 }

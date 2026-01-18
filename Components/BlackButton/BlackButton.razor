@@ -1,4 +1,4 @@
-<button class="blackButton" style="height: @(Height+"px"); width:@(Width+"px")">
+<button class="blackButton" style="height: @(Height+"px"); width:@(Width+"px")" @onclick='@ExecuteActionButton'>
     @ChildContent
 </button>
 
@@ -11,5 +11,12 @@
     
     [Parameter]
     public int? Height {get; set;} = 50;
+
+    [Parameter]
+    public EventCallback ActionButton {get; set;}
+
+    async Task ExecuteActionButton(){
+        await ActionButton.InvokeAsync();
+    }
 
 }

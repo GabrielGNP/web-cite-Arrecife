@@ -8,25 +8,43 @@
 @using Web_Cite_Arrecife.Components.Cards
 @using Web_Cite_Arrecife.Components.Circle
 @using Web_Cite_Arrecife.Components.ColoredButton
+@using Web_Cite_Arrecife.Components.Dialog
 @using Web_Cite_Arrecife.Components.GradientRectangle
 @using Web_Cite_Arrecife.Components.NavBar
 @using Web_Cite_Arrecife.Components.SVGs
-@inject NavigationManager Nav
+@using Web_Cite_Arrecife.Services
 
+@inject NavigationService NavService
 
 <NavBar />
-<BackgroundFlashes SpecialStyles="height: calc(100vh - 100px);">
-    <div class="contentSpacing">
-        <div class="flex-column center">
-            <h1 class="center fs70">Tu refugio seguro para</h1>
-            <h1 class="center fs70 gradientText">credenciales digitales</h1>
+<BackgroundFlashes Id="id_principalContent" SpecialStyles="min-height: calc(100vh - 100px);">
+    <div class="contentSpacing2">
+        <div class="flex-column center marg-top80">
+            <div class="workInProgress width200 center fw600 pd0 marg-bottom20">
+                ⚠️ WorkInProgress
+            </div>
+            <p class="marg5 marg-inline40">El desarrollo de la aplicación está en sus últimas etapas, por lo que aún no está disponible su descarga.</p>
+            <p class="marg5 marg-inline40">Algunas de las características y opciones del citio web no estáran disponibles por el momento.</p>
         </div>
-        <p class="fs20 pd50 pd-inline80 center">
+        <div class="flex-column center marg-top80 posRelative">
+            <h1 style="z-index:1" class="center fs70 height70">Tu refugio seguro para</h1>
+            <h1 style="z-index:1" class="center fs70 gradientText height70">credenciales digitales</h1>
+            <SVG_Arrecife 
+                Styles="z-index:0;" Width="400" Height="400"
+                class="iconBackground posAbsolute"
+                Gradient=true
+                StartColor="color-mix(in oklch, var(--cyanColorBase) 60%, black)"
+                EndColor="color-mix(in oklch, var(--purpleColorBase) 60%, black)"
+                PosFirstColor='("0","100")'
+                PosSecondColor='("90","10")'
+            />
+        </div>
+        <p class="fs20 pd50 pd-inline80 center posRelative">
             Como un arrecife protege a las especies marinas, nuestro sistema protege tu información digital. Gestiona todas tus credenciales con encriptación avanzada en un ecosistema seguro.
         </p>
         <div class="flex-line center gap4">
-            <ColoredButton text="Descargar Gratis →"></ColoredButton>
-            <Button text="ver demo"></Button>
+            <ColoredButton text="Descargar Gratis →" ActionButton='() => ChangeModalContent("Download")'></ColoredButton>
+            <Button text="ver demo" ActionButton='() => ChangeModalContent("Download")'></Button>
         </div>
     </div>
 </BackgroundFlashes>
@@ -142,13 +160,13 @@
     <h2 class="fs50 pd10">Descarga <text class="gradientText">Arrecife</text> hoy</h2>
     <p class="fs20">Mantén segura y accesible tu información con nuestro arrecife digital</p>
     <div>
-        <BlackButton Height=40 Width="130">
+        <BlackButton Height=40 Width="130" ActionButton='() => ChangeModalContent("Download")'>
             <p class="tc-white flex-line center jc-spaceEvenly">
                 <SVG_Apple Height=15 Width=15/> 
                 App Store
             </p>
         </BlackButton>
-        <BlackButton Height=40 Width="130">
+        <BlackButton Height=40 Width="130" ActionButton='() => ChangeModalContent("Download")'>
             <p class="tc-white flex-line center jc-spaceEvenly">
                 <SVG_Play Height=15 Width=15/>
                 Play Store
@@ -159,48 +177,179 @@
 <Background Styles="min-height:200px; border-top: 1px solid color-mix(in oklch, var(--black) 100%, white)">
     <div class="flex-line contentSpacing totalWidth ai-flexStart gap4">
         <div class="flex1">
-            <div class="flex-line ai-center"><div class="iconApp"></div><p style="padding-left:5px" class="tc-white fw600 fs20"> Arrecife</p></div>
+            <div class="flex-line ai-center">
+                <div class="iconApp">
+                    <SVG_Arrecife Color="var(--whiteText)" Width="40" Height="40"/>
+                </div>
+                <p style="padding-left:5px" class="tc-white fw600 fs20"> Arrecife</p>
+            </div>
             <p class="fs15 pd-block10">Tu regudio seguro para credenciales digitales.</p>
         </div>
         <div class="flex1 flex-column">
             <p class="tc-white fw600 pd-block10 fs20">Producto</p>
-            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => GoToSection("id_features")'>Características</a>
-            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => GoToSection("id_security")'>Seguridad</a>
-            <a class="anchorHover tc-grey fs15 pd-block10">FAQ</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => NavService.GoToSection("id_features")'>Características</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => NavService.GoToSection("id_security")'>Seguridad</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => ChangeModalContent("FAQ")'>FAQ</a>
         </div>
         <div class="flex1 flex-column">
             <p class="tc-white fw600 pd-block10 fs20">Compañia</p>
-            <a class="anchorHover tc-grey fs15 pd-block10">Sobre Nosotros</a>
-            <a class="anchorHover tc-grey fs15 pd-block10">Contacto</a>
-            <a class="anchorHover tc-grey fs15 pd-block10">Soporte</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => ChangeModalContent("AboutUs")'>Sobre Nosotros</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => ChangeModalContent("contact")'>Contacto</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => ChangeModalContent("contact")'>Soporte</a>
         </div>
         <div class="flex1 flex-column">
             <p class="tc-white fw600 pd-block10 fs20">Legal</p>
-            <a class="anchorHover tc-grey fs15 pd-block10">Privacidad</a>
-            <a class="anchorHover tc-grey fs15 pd-block10">Terminos</a>
-            <a class="anchorHover tc-grey fs15 pd-block10">Seguridad</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => ChangeModalContent("Legal")'>Privacidad</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => ChangeModalContent("Legal")'>Terminos</a>
+            <a class="anchorHover tc-grey fs15 pd-block10" @onclick='() => ChangeModalContent("Legal")'>Seguridad</a>
         </div>
     </div>
     <div class="dividingLine"></div>
     <div class="flex-line contentSpacing totalWidth jc-spaceBetween">
         <p class="fs15">© 2026 Arrecife. Todos los derechos reservados.</p>
         <div>
-            <a Class="anchorHover pd10" href="https://github.com/GabrielGNP" target="_blank" rel="noopener noreferrer">
+            <a Class="anchorHover marg5" href="https://github.com/GabrielGNP" target="_blank" rel="noopener noreferrer">
                 <SVG_Github Width=20 Height=20 Color="inherit"/>
             </a>
-            <a Class="anchorHover pd10" href="https://www.linkedin.com/in/gabriel-perero/" target="_blank" rel="noopener noreferrer">
+            <a Class="anchorHover marg5" href="https://www.linkedin.com/in/gabriel-perero/" target="_blank" rel="noopener noreferrer">
                 <SVG_LinkedIn Width=20 Height=20 Color="inherit"/>
             </a>
-            <a Class="anchorHover pd10">
+            <a Class="anchorHover marg5" @onclick='() => ChangeModalContent("contact")'>
                 <SVG_Mail Width=20 Height=20 Color="inherit"/>
             </a>            
         </div>
     </div>
 </Background>
+<ReactiveDialog showModal=@showReactiveDialog ChangeShowModal="ChangeShowModal">
+    @contentModal
+</ReactiveDialog>
 
-@code {
+@code{
+    RenderFragment? contentModal;
 
-    void GoToSection(string id){
-        Nav.NavigateTo($"/#{id}", forceLoad:true);
+    bool showReactiveDialog = false;
+
+    void ChangeShowModal(){
+        showReactiveDialog = !showReactiveDialog;
+    }
+
+    void ChangeModalContent(string opModal){
+        switch (opModal)
+        {
+            case "contact":
+                contentModal = builder =>
+                {
+                    builder.OpenElement(0, "div");
+                    
+                    builder.OpenElement(1, "p");
+                    builder.AddContent(2, "Para contactar al desarrollador puede enviar un correo a:");
+                    builder.CloseElement();
+
+                    builder.OpenElement(3, "p");
+                    builder.AddAttribute(4, "class", "tc-white pd-block10");
+                    builder.AddContent(5, "GabrielPereroJob@gmail.com");
+                    builder.CloseElement();
+
+                    builder.CloseElement();
+                };
+                break;
+            case "FAQ":
+                contentModal = builder =>
+                {
+                    builder.OpenElement(0, "div");
+                    
+                    builder.OpenElement(1, "p");
+                    builder.AddAttribute(2, "class", "workInProgress marg-bottom20");
+                    builder.AddContent(3, "⚠️Work in Progress");
+                    builder.CloseElement();
+
+                    builder.OpenElement(4, "p");
+                    builder.AddContent(5, "La aplicación está en sus últimas etapas de desarrollo por lo que aún no existen algunos apartados del sitio web aún no están completos.");
+                    builder.CloseElement();
+
+                    builder.OpenElement(6, "p");
+                    builder.AddAttribute(7, "class", "tc-white pd-block10");
+                    builder.AddContent(8, "Las FAQ serán agregadas próximamente.");
+                    builder.CloseElement();
+
+                    builder.CloseElement();
+                };
+                break;
+            case "AboutUs":
+                contentModal = builder =>
+                {
+                    builder.OpenElement(0, "div");
+                    
+                    builder.OpenElement(1, "p");
+                    builder.AddAttribute(2, "class", "workInProgress marg-bottom20");
+                    builder.AddContent(3, "⚠️Work in Progress");
+                    builder.CloseElement();
+
+                    builder.OpenElement(4, "p");
+                    builder.AddContent(5, "La aplicación está en sus últimas etapas de desarrollo por lo que aún no existen algunos apartados del sitio web aún no están completos.");
+                    builder.CloseElement();
+
+                    builder.OpenElement(6, "p");
+                    builder.AddAttribute(7, "class", "tc-white pd-block10");
+                    builder.AddContent(8, "La sección \"Sobre nosotros\" será agregada próximamente.");
+                    builder.CloseElement();
+
+                    builder.CloseElement();
+                };
+                break;
+            case "Legal":
+                contentModal = builder =>
+                {
+                    builder.OpenElement(0, "div");
+                    
+                    builder.OpenElement(1, "p");
+                    builder.AddAttribute(2, "class", "workInProgress marg-bottom20");
+                    builder.AddContent(3, "⚠️Work in Progress");
+                    builder.CloseElement();
+
+                    builder.OpenElement(4, "p");
+                    builder.AddContent(5, "La aplicación está en sus últimas etapas de desarrollo por lo que aún no existen algunos apartados del sitio web aún no están completos.");
+                    builder.CloseElement();
+
+                    builder.OpenElement(6, "p");
+                    builder.AddAttribute(7, "class", "tc-white pd-block10");
+                    builder.AddContent(8, "La sección \"Legal\" será agregada próximamente.");
+                    builder.CloseElement();
+
+                    builder.CloseElement();
+                };
+                break;
+            case "Download":
+                contentModal = builder =>
+                {
+                    builder.OpenElement(0, "div");
+                    
+                    builder.OpenElement(1, "p");
+                    builder.AddAttribute(2, "class", "workInProgress marg-bottom20");
+                    builder.AddContent(3, "⚠️Work in Progress");
+                    builder.CloseElement();
+
+                    builder.OpenElement(4, "p");
+                    builder.AddContent(5, "La aplicación está en sus últimas etapas de desarrollo por lo que aún no es posible descargar la aplicación.");
+                    builder.CloseElement();
+
+                    builder.OpenElement(6, "p");
+                    builder.AddAttribute(7, "class", "tc-white pd-block10");
+                    builder.AddContent(8, "Próximamente se habilitarán las descargas y la previsualización.");
+                    builder.CloseElement();
+
+                    builder.CloseElement();
+                };
+                break;
+            default:
+                contentModal = builder => {
+                    builder.OpenElement(0,"p");
+                    builder.AddContent(1, "example");
+                    builder.CloseElement();
+                };
+                break;
+            
+        }
+        ChangeShowModal();
     }
 }

@@ -1,27 +1,25 @@
 ﻿@using Web_Cite_Arrecife.Components.ColoredButton;
 @using Web_Cite_Arrecife.Components.SVGs
-@inject NavigationManager Nav
+@using Web_Cite_Arrecife.Services
+@inject NavigationService NavService
 
 <div class="navBar glass-effect">
     <div class="content-navBar">
         <div class="first-space-navBar">
-            <div class="iconApp"></div>
-            <p class="gradientText appName">Arrecife</p>
+            <div class="iconApp">
+                <SVG_Arrecife Color="var(--whiteText)" Width="40" Height="40"/>
+            </div>
+            <a class="gradientText appName" @onclick='() => NavService.GoToSection("id_principalContent")'>Arrecife</a>
         </div>
         <div class="second-space-navBar">
-            <a class="aNav" href="" @onclick='() => GoToSection("id_features")'>Características</a>
-            <a class="aNav" href="" @onclick='() => GoToSection("id_security")'>Seguridad</a>
-            <a class="aNav" href="" @onclick='() => GoToSection("id_working")'>Cómo Funciona</a>
-            <TransparentButton>
+            <a class="aNav" href="" @onclick='() => NavService.GoToSection("id_features")'>Características</a>
+            <a class="aNav" href="" @onclick='() => NavService.GoToSection("id_security")'>Seguridad</a>
+            <a class="aNav" href="" @onclick='() => NavService.GoToSection("id_working")'>Cómo Funciona</a>
+            @* <TransparentButton>
                 <SVG_Sun></SVG_Sun>
-            </TransparentButton>
-            <ColoredButton text="Descargar App"></ColoredButton>
+            </TransparentButton> *@
+            <ColoredButton Class="buttonBloqued" text="Descargar App"></ColoredButton>
         </div>
     </div>
 
 </div>
-@code {
-    void GoToSection(string id){
-        Nav.NavigateTo($"/#{id}", forceLoad:true);
-    }
-}

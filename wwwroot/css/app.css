@@ -8,6 +8,7 @@
     --whiteText: oklch(.98 .01 240);
     --spacing: 0.25rem;
     --radius: 1rem;
+    --dialogDimension: 50%;
 }
 * {
     font-family: 'Geist', 'Geist-Fallback', sans-serif;
@@ -42,11 +43,28 @@ h1,h2,h3,h4 {
     color: var(--whiteText);
     margin: 0px;
 }
+h1,h2,h3,h4:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;    
+}
+
 p{
     margin:0px;
     color: var(--text);
 }
-
+button, a{
+    cursor: pointer;
+}
+.buttonBloqued{
+    cursor:not-allowed;
+    position:relative;
+}
+.buttonBloqued::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: calc(var(--radius) - 2px);
+}
 
 
 .gradientText {
@@ -87,8 +105,11 @@ p{
     border-radius: calc(var(--radius) + 4px);
     height: calc(var(--spacing) * 10);
     width: calc(var(--spacing) * 10);
+    display: flex;
 }
-
+.iconBackground{
+    z-index: 0;
+}
 .aNav {
     color: color-mix(in oklab, var(--whiteText) 80%, transparent);
     text-decoration: none;
@@ -128,7 +149,16 @@ p{
     background: color-mix(in oklch, var(--black) 100%, white);
     margin-block: 20px;
 }
-
+.workInProgress{
+    background: rgb(255 179 2 / 16%);
+    border: 1.5px solid rgb(255 179 0 / 38%);
+    border-radius: calc(var(--radius));
+    color: white;
+    padding-left: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
 
 .center{
     text-align: center;
@@ -136,8 +166,12 @@ p{
     justify-content: center;
 }
 .totalWidth{width: -webkit-fill-available;}
+.width300{width: 300px;}
+.width200{width: 200px;}
 .height100ps{height: 100%;}
+.height70{height: 70px;}
 .contentSpacing{margin-inline: 100px;}
+.contentSpacing2{margin-inline: 200px;}
 .fs70{ font-size: 70px;}
 .fs50{ font-size: 50px;}
 .fs40{ font-size: 40px;}
@@ -155,9 +189,17 @@ p{
 .jc-spaceBetween{justify-content: space-between;}
 .ai-center{align-items: center;}
 .ai-flexStart{align-items: flex-start;}
+.marg20{margin: 20px;}
+.marg5{margin: 5px;}
+.marg-block40{margin-block:40px;}
+.marg-inline40{margin-inline:40px;}
+.marg-top80{margin-top: 80px;}
+.marg-bottom80{margin-bottom: 80px;}
+.marg-bottom20{margin-bottom: 20px;}
 .pd50{padding: 50px;}
 .pd10{padding: 10px;}
 .pd5{padding: 5px;}
+.pd0{padding:0px;}
 .pd-inline80{ padding-inline: 80px;}
 .pd-block80{ padding-block: 80px;}
 .pd-block20{ padding-block: 20px;}
