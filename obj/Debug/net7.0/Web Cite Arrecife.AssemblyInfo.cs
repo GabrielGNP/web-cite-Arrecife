@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Web Cite Arrecife")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b9cdf22cd84c47331368aecec309fd5ce34c222")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecdf26479397857ca5a8ea9460b3a71e2e959111")]
 [assembly: System.Reflection.AssemblyProductAttribute("Web Cite Arrecife")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Web Cite Arrecife")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

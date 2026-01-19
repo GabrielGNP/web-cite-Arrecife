@@ -77,6 +77,9 @@ button, a{
 }
 
 .transparentButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: calc(var(--spacing) * -2);
     border-radius: var(--radius);
     border: 0px;
@@ -101,7 +104,7 @@ button, a{
 }
 
 .iconApp {
-    background: linear-gradient(135deg, var(--cyanColorBase) 0%, var(--purpleColorBase) 100%);
+    background: linear-gradient(135deg, var(--cyanColorBase) 0%, var(--purpleColorBase) 80%);
     border-radius: calc(var(--radius) + 4px);
     height: calc(var(--spacing) * 10);
     width: calc(var(--spacing) * 10);
@@ -159,6 +162,17 @@ button, a{
     display: flex;
     align-items: center;
 }
+.container2cells{
+    display: flex;
+    flex-direction: row;
+    gap: calc(var(--spacing) * 16);
+    align-items: center;
+    padding-inline: 30px;
+}
+.cells4flex{
+    display: none;
+}
+
 
 .center{
     text-align: center;
@@ -170,8 +184,8 @@ button, a{
 .width200{width: 200px;}
 .height100ps{height: 100%;}
 .height70{height: 70px;}
-.contentSpacing{margin-inline: 100px;}
-.contentSpacing2{margin-inline: 200px;}
+.contentSpacing{margin-inline: 5%;}
+.contentSpacing2{margin-inline: 10%;}
 .fs70{ font-size: 70px;}
 .fs50{ font-size: 50px;}
 .fs40{ font-size: 40px;}
@@ -201,6 +215,9 @@ button, a{
 .pd5{padding: 5px;}
 .pd0{padding:0px;}
 .pd-inline80{ padding-inline: 80px;}
+.pd-inline50{ padding-inline: 50px;}
+.pd-inline30{ padding-inline: 30px;}
+.pd-inline15{ padding-inline: 15px;}
 .pd-block80{ padding-block: 80px;}
 .pd-block20{ padding-block: 20px;}
 .pd-block10{ padding-block: 10px;}
@@ -210,6 +227,35 @@ button, a{
 .boxSizing-border{box-sizing: border-box;}
 .posRelative{position:relative;}
 .posAbsolute{position:absolute;}
+
+.minWidth900{
+    display: none;
+}
+
+@media(max-width: 900px){
+    
+    .contentSpacing{margin-inline: 0px;}
+    .contentSpacing2{margin-inline: 0px;}
+    .container2cells{
+        display: flex;
+        flex-direction: column;
+        gap: calc(var(--spacing) * 16);
+        align-items: center;
+        padding-inline: 30px;
+    }
+    .hideMinWidth900{
+        display: none;
+    }
+    .cells4flex{
+        display: flex;
+        justify-content: space-between;
+        padding-block: 80px;
+        gap: calc(var(--spacing) * 4);
+        position: relative;
+        padding-inline: 50px;
+        flex-direction: column;
+    }
+}
 
 @font-face {
     font-family: 'Geist';

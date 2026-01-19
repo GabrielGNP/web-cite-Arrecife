@@ -1,0 +1,157 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Web_Cite_Arrecife
+build_property.RootNamespace = Web_Cite_Arrecife
+build_property.ProjectDir = C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Apple.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19BcHBsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Arrecife.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19BcnJlY2lmZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Biometric.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19CaW9tZXRyaWMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_CircleCheck.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19DaXJjbGVDaGVjay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Cloud.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19DbG91ZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Download.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19Eb3dubG9hZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Folder.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19Gb2xkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Github.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19HaXRodWIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Grid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19HcmlkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_LinkedIn.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19MaW5rZWRJbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Lock.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19Mb2NrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Mail.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19NYWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Phone.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19QaG9uZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Play.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19QbGF5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Ray.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19SYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Shield.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19TaGllbGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Sun.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19TdW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/TransparentButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUcmFuc3BhcmVudEJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/BackgroundFlashes/BackgroundFlashes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCYWNrZ3JvdW5kRmxhc2hlc1xCYWNrZ3JvdW5kRmxhc2hlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-y1ybs8mo8k
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/BackgroundLinearGradient/BackgroundLinearGradient.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCYWNrZ3JvdW5kTGluZWFyR3JhZGllbnRcQmFja2dyb3VuZExpbmVhckdyYWRpZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-zsus72iwuf
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/Background/Background.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCYWNrZ3JvdW5kXEJhY2tncm91bmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3aini647ok
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/BlackButton/BlackButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCbGFja0J1dHRvblxCbGFja0J1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-wwqe3c333r
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/Button/Button.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCdXR0b25cQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wne60mb2ri
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/Cards/SquareCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkc1xTcXVhcmVDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-6g19xr893y
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/Circle/Circle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaXJjbGVcQ2lyY2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-0jy4qzao4r
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/ColoredButton/ColoredButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xvcmVkQnV0dG9uXENvbG9yZWRCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kupco6wh1v
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/Dialog/ReactiveDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEaWFsb2dcUmVhY3RpdmVEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-f1qvybxfvo
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/GradientRectangle/GradientRectangle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHcmFkaWVudFJlY3RhbmdsZVxHcmFkaWVudFJlY3RhbmdsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-d6ic9p5wf9
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/NavBar/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZCYXJcTmF2QmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-metm05gy16

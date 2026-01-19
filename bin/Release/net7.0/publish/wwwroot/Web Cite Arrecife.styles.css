@@ -1,0 +1,221 @@
+/* /Components/BackgroundFlashes/BackgroundFlashes.razor.rz.scp.css */
+.styleBackground[b-y1ybs8mo8k]{
+    background-color: var(--background);
+    width: 100vw;
+    min-height: 500px;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.first-flash[b-y1ybs8mo8k]
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: color-mix(in oklab, var(--cyanColorBase) 10%, transparent);
+    filter: blur(4rem);
+}
+
+.second-flash[b-y1ybs8mo8k]{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background-color: color-mix(in oklab, var(--purpleColorBase) 10%, transparent);
+    filter: blur(4rem);
+}
+
+/* /Components/BackgroundLinearGradient/BackgroundLinearGradient.razor.rz.scp.css */
+.backgroundLinearGradient[b-zsus72iwuf]{
+    background: var(--background);
+    background: linear-gradient(145deg,
+        color-mix(in oklch, var(--cyanColorBase) 25%, black),
+        color-mix(in oklch, var(--purpleColorBase) 25%, black)
+    );
+    width: 100vw;
+    min-height: 400px;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* /Components/Background/Background.razor.rz.scp.css */
+.styleBackground[b-3aini647ok]{
+    background-color: var(--patchBackground);
+    width: 100vw;
+    min-height: 500px;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* /Components/BlackButton/BlackButton.razor.rz.scp.css */
+.blackButton[b-wwqe3c333r]{
+    background: black;
+    color: white;
+    font-size: calc(0.85rem *1.2);
+    padding: 0px;
+    border-radius: calc(var(--radius) - 2px);
+    margin-block: 30px;
+    margin-inline: 10px;
+}
+/* /Components/Button/Button.razor.rz.scp.css */
+.ButtonTransparent[b-wne60mb2ri] {
+    background: transparent;
+    border: 1px var(--black) solid;
+    color: white;
+    font-size: calc(0.85rem *1.2);
+    
+    padding-block: calc(var(--spacing) * 3);
+    padding-inline: calc(var(--spacing) * 4);
+    border-radius: calc(var(--radius) - 2px);
+
+    transition: 0.25s;
+}
+.coloredButton:hover[b-wne60mb2ri]{
+    background: color-mix(in oklab, var(--cyanColorBase) 60%, transparent);
+    color: var(--background);
+}
+/* /Components/Cards/SquareCard.razor.rz.scp.css */
+.squareCard[b-6g19xr893y]{
+    width: 310px;
+    height: 275px;
+    background: var(--background);
+    border-radius: calc(var(--radius) * 2);
+    padding: 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.squareCard:hover[b-6g19xr893y]{
+    box-shadow: -2px 2px 5px color-mix(in oklch, var(--cyanColorBase) 50%, transparent), 
+                2px 2px 5px color-mix(in oklch, var(--purpleColorBase) 90%, transparent);    
+}
+/* /Components/Circle/Circle.razor.rz.scp.css */
+.circle[b-0jy4qzao4r]{
+    border-radius: 100%;
+    background: var(--purpleColorBase);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 17px;
+    font-weight: 600;
+    color:var(--whiteText);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* /Components/ColoredButton/ColoredButton.razor.rz.scp.css */
+.coloredButton[b-kupco6wh1v] {
+    background: linear-gradient(135deg,var(--cyanColorBase)0%,var(--purpleColorBase)100%);
+    color: white;
+    font-size: calc(0.85rem *1.2);
+    padding-block: calc(var(--spacing) * 3);
+    padding-inline: calc(var(--spacing) * 4);
+    border-radius: calc(var(--radius) - 2px);
+}
+/* /Components/Dialog/ReactiveDialog.razor.rz.scp.css */
+
+.reactiveDialog[b-f1qvybxfvo]{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    z-index: 20;
+    
+    background: color-mix(in oklch, black 50%, transparent);
+}
+.mainContent[b-f1qvybxfvo]{
+    position: absolute;
+    width: var(--dialogDimension);
+    top: calc(50% - 100px);
+    height: 200px;
+    left: calc(50% - (var(--dialogDimension) / 2));
+    box-sizing: border-box;
+
+    padding: 30px;
+
+    background: linear-gradient(145deg,
+        color-mix(in oklch, var(--cyanColorBase) 25%, black),
+        color-mix(in oklch, var(--purpleColorBase) 25%, black)
+    );
+    box-shadow: -5px -5px 15px 0.5px color-mix(in oklch, var(--cyanColorBase) 30%, transparent),
+                5px 5px 15px 0.5px color-mix(in oklch, var(--purpleColorBase) 30%, transparent);
+    border-radius: var(--radius);
+
+    color:var(--text);
+}
+
+.closeButton[b-f1qvybxfvo]{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+
+    width: 35px;
+    height: 35px;
+    background-color: var(--patchBackground);
+    border-radius: 100%;
+    padding: 0px;
+    
+    color: var(--text);
+    transition: 0.5s;
+}
+.closeButton:hover[b-f1qvybxfvo]{
+    box-shadow: -5px -5px 10px 0.5px color-mix(in oklch, var(--cyanColorBase) 70%, transparent),
+                5px 5px 10px 0.5px color-mix(in oklch, var(--purpleColorBase) 70%, transparent);
+    color: var(--whiteText);
+}
+/* /Components/GradientRectangle/GradientRectangle.razor.rz.scp.css */
+.gradientRectangle[b-d6ic9p5wf9]{
+    position: relative;
+}
+/* /Components/NavBar/NavBar.razor.rz.scp.css */
+.navBar[b-metm05gy16] {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    align-content: center;
+    z-index: 10;
+}
+.glass-effect[b-metm05gy16]{
+    backdrop-filter: blur(10px);
+    background: #ffffff0d;
+    border: 1px solid #ffffff1a;
+}
+.content-navBar[b-metm05gy16] {
+    height: 100%;
+    padding-block: calc(var(--spacing) * 4);
+    padding-inline: calc(var(--spacing) * 4);
+    display: flex;
+    justify-content: space-around;
+    margin-inline: auto;
+}
+.first-space-navBar[b-metm05gy16] {
+    display: flex;
+    align-items: center;
+    
+}
+.first-space-navBar .appName[b-metm05gy16] {
+    font-size: 25px;
+    margin-left: 10px;
+}
+.second-space-navBar[b-metm05gy16]{
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 8);
+}
