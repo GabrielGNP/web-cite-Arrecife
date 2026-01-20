@@ -34,3 +34,10 @@
     filter: blur(4rem);
 }
 
+@media(max-width: 900px){
+    .first-flash[b-y1ybs8mo8k],
+    .second-flash[b-y1ybs8mo8k]{
+        width: 100%;
+    }
+
+}

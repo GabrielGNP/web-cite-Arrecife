@@ -11,3 +11,13 @@
     box-shadow: -2px 2px 5px color-mix(in oklch, var(--cyanColorBase) 50%, transparent), 
                 2px 2px 5px color-mix(in oklch, var(--purpleColorBase) 90%, transparent);    
 }
+
+
+@media(max-width: 900px){
+    .squareCard[b-6g19xr893y]{
+        width: 200px;
+        height: fit-content;
+        padding: 10px;
+    }
+
+}

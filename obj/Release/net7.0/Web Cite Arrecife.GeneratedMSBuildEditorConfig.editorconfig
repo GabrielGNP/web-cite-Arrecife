@@ -28,6 +28,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVGs_Menu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR3NfTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/SVGs/SVG_Apple.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTVkdzXFNWR19BcHBsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -151,6 +155,10 @@ build_metadata.AdditionalFiles.CssScope = b-f1qvybxfvo
 [C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/GradientRectangle/GradientRectangle.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHcmFkaWVudFJlY3RhbmdsZVxHcmFkaWVudFJlY3RhbmdsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-d6ic9p5wf9
+
+[C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/MenuMovil/MenuMovil.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNZW51TW92aWxcTWVudU1vdmlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-k6wtxeeft4
 
 [C:/Users/gabip/OneDrive/Desktop/Trabajo/GSmart/Arrecife/Web Cite/Web Cite Arrecife/Components/NavBar/NavBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZCYXJcTmF2QmFyLnJhem9y

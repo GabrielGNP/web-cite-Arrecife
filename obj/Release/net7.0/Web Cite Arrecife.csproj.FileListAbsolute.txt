@@ -829,9 +829,6 @@ C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arreci
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\0a3v3ilai9-tptq2av103.gz
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\en178ecopr-lfu7j35m59.gz
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\dincinotq8-7cxe8oq9xu.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\gml8qidce4-h9zgeco6h9.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\h2nhwah4ij-1y7lj00os1.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\fhbxigmtjw-o9ddqq4084.gz
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\staticwebassets.build.json
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\staticwebassets.build.json.cache
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\staticwebassets.development.json
@@ -841,3 +838,7 @@ C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arreci
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\refint\Web Cite Arrecife.dll
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\Web Cite Arrecife.pdb
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\ref\Web Cite Arrecife.dll
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\scopedcss\Components\MenuMovil\MenuMovil.razor.rz.scp.css
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\gml8qidce4-vu6ljsq0bf.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\h2nhwah4ij-mborpj2tz4.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\fhbxigmtjw-k0p9nj3klu.gz

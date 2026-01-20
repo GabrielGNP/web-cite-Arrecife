@@ -1,0 +1,50 @@
+@using Web_Cite_Arrecife.Components.SVGs
+@using Web_Cite_Arrecife.Services
+@inject NavigationService NavService
+
+
+<div class="backMenuMovil @showMenu">
+</div>
+<div class="menuMovil @showMenu" @onclick="CloseMenuMovil">
+    <div class="flex-line ai-center">
+        <div class="iconApp">
+            <SVG_Arrecife Color="var(--whiteText)" Width="40" Height="40"/>
+        </div>
+        <text class="gradientText appName">Arrecife</text>
+    </div>
+    <div class="options" @onclick:stopPropagation>
+        <a class="aNav" href="" @onclick='() => CloseMenuMovilAndGo("id_features")'>Características</a>
+        <a class="aNav" href="" @onclick='() => CloseMenuMovilAndGo("id_security")'>Seguridad</a>
+        <a class="aNav" href="" @onclick='() => CloseMenuMovilAndGo("id_working")'>Cómo Funciona</a>
+    </div>
+    <div class="footerMenuMovil" @onclick:stopPropagation>
+        <a Class="anchorHover marg20" href="https://github.com/GabrielGNP" target="_blank" rel="noopener noreferrer">
+            <SVG_Github Width=20 Height=20 Color="inherit"/>
+        </a>
+        <a Class="anchorHover marg20" href="https://www.linkedin.com/in/gabriel-perero/" target="_blank" rel="noopener noreferrer">
+            <SVG_LinkedIn Width=20 Height=20 Color="inherit"/>
+        </a>           
+    </div>
+</div>
+
+@code{
+    [Parameter]
+    public string? Class {get;set;}
+    [Parameter]
+    public string? Styles {get;set;}
+
+    [Parameter]
+    public bool? showMenu {get;set;} = false;
+
+    [Parameter]
+    public EventCallback changeVisibilityMenu {get;set;}
+
+    async Task CloseMenuMovilAndGo(string goTo){
+        NavService.GoToSection(goTo);
+        await changeVisibilityMenu.InvokeAsync();
+    }
+
+    async Task CloseMenuMovil(){
+        await changeVisibilityMenu.InvokeAsync();
+    }
+}

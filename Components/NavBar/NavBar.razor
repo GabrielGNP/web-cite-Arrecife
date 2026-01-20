@@ -1,4 +1,5 @@
 ﻿@using Web_Cite_Arrecife.Components.ColoredButton;
+@using Web_Cite_Arrecife.Components.MenuMovil
 @using Web_Cite_Arrecife.Components.SVGs
 @using Web_Cite_Arrecife.Services
 @inject NavigationService NavService
@@ -20,9 +21,18 @@
             </TransparentButton> *@
             <ColoredButton Class="buttonBloqued" text="Descargar App"></ColoredButton>
         </div>
-        <TransparentButton Class="minWidth900">
+        <TransparentButton Class="minWidth900 " onclick="() => ChangeVisibilityMenu()">
                 <SVGs_Menu Color="white" Height=30 Width=30></SVGs_Menu>
         </TransparentButton>
     </div>
-
 </div>
+<MenuMovil showMenu=@showMenu changeVisibilityMenu="@ChangeVisibilityMenu"></MenuMovil>
+
+
+@code{
+    public bool showMenu = false;
+
+    void ChangeVisibilityMenu(){
+        showMenu = !showMenu;
+    }
+}

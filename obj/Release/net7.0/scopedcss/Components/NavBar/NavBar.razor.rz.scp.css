@@ -23,7 +23,7 @@
     align-items: center;
     
 }
-.first-space-navBar .appName[b-metm05gy16] {
+.appName[b-metm05gy16] {
     font-size: 25px;
     margin-left: 10px;
 }
@@ -31,4 +31,16 @@
     display: flex;
     align-items: center;
     gap: calc(var(--spacing) * 8);
+}
+
+@media (max-width: 800px) {
+    .navBar[b-metm05gy16]{
+        box-sizing: border-box;
+    }
+    .content-navBar[b-metm05gy16]{
+        justify-content: space-between;
+    }
+    .second-space-navBar[b-metm05gy16]{
+        display: none;
+    }
 }

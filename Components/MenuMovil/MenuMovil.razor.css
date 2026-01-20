@@ -1,0 +1,56 @@
+.backMenuMovil{
+    position: fixed;
+    top: 0px;
+    background: color-mix(in oklch, var(--black) 70%, transparent);
+    width: 100%;
+    height: 100%;  
+    z-index: 11; 
+}
+.backMenuMovil.False{
+    display: none;
+}
+.menuMovil{
+    position: fixed;
+    top: 10px;
+    z-index: 12;
+    left:0px;
+    width: 250px;
+    height: 90dvh;
+    background: var(--patchBackground);
+    border-bottom-right-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    transition: 1s;
+    padding-block: 20px;
+    padding-inline: 15px;
+}
+.menuMovil.False{
+    left:-300px;
+}
+.menuMovil .options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.menuMovil .options .aNav{
+    margin: 5px;
+    
+    padding: 15px;
+    border-radius: var(--radius);
+    font-size: 17px;
+}
+
+.menuMovil .options .aNav:hover{
+    background: color-mix(in oklch, var(--black) 50%, transparent);
+}
+
+.appName {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.footerMenuMovil{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

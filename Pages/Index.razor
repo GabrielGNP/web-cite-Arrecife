@@ -10,6 +10,7 @@
 @using Web_Cite_Arrecife.Components.ColoredButton
 @using Web_Cite_Arrecife.Components.Dialog
 @using Web_Cite_Arrecife.Components.GradientRectangle
+@using Web_Cite_Arrecife.Components.MenuMovil
 @using Web_Cite_Arrecife.Components.NavBar
 @using Web_Cite_Arrecife.Components.SVGs
 @using Web_Cite_Arrecife.Services
@@ -33,7 +34,6 @@
             </h1>
             
             <SVG_Arrecife 
-                Styles="z-index:0;" Width="400" Height="400"
                 class="iconBackground posAbsolute"
                 Gradient=true
                 StartColor="color-mix(in oklch, var(--cyanColorBase) 60%, black)"
@@ -54,12 +54,12 @@
 <Background Id="id_features">
     <div class="contentSpacing">
         <div class="flex-line center">
-            <h2 class="fs50 pd10">Características <text class="gradientText">Potentes</text></h2>
+            <h2 class="fs40 pd10">Características <text class="gradientText">Potentes</text></h2>
         </div>
         <p class="fs20 pd-inline80 center">
             Todo lo que necesitas para mantener tu vida digital segura y organizada
         </p>
-        <div class="flex-line jc-spaceEvenly gap8 pd-block80 flex-wrap pd-inline30">
+        <div class="contentSquareCards">
             <SquareCard>
                 <GradientRectangle>
                     <SVG_Shield></SVG_Shield>
@@ -84,10 +84,10 @@
         </div>
     </div>
 </Background>
-<BackgroundFlashes Id="id_security" Flashes="false" SpecialStyles="padding-bottom: 80px; padding-inline:100px; box-sizing: border-box;">
+<BackgroundFlashes Class="securityBackground" Id="id_security" Flashes="false">
     <div class="container2cells" style="width:100%">
-        <div style="flex1">
-            <h1 class="fs50 line-h40" style="width: 400px;">Seguridad como un <text class="gradientText">ecosistema de arrecifes</text></h1>
+        <div class="cell">
+            <h1 class="titleSecurityBlock" style="">Seguridad como un <text class="gradientText">ecosistema de arrecifes</text></h1>
             <p class="fs20 pd-block20">Los arrecifes de coral son ecosistemas naturales que protegen miles de especies. De la misma manera, Arrecife crea un entorno seguro y robusto para tus datos digitales, utilizando múltiples capas de protección.</p>
             <p class="flex-line ai-center pd5">
                 <SVG_CircleCheck Styles="color:var(--cyanColorBase); padding:10px" />
@@ -107,7 +107,7 @@
             </p>
             
         </div>
-        <div class="contentImage flex1">
+        <div class="contentImage cell">
             <SVG_Grid></SVG_Grid>
         </div>
     </div>
@@ -156,7 +156,7 @@
             </div>
         </div>
         <div class="cells4flex">
-            <div class="flex-line gap4">
+            <div class="flex-line gap4 jc-center">
                 <div class="flex-column center flex1 height100ps">
                     <GradientRectangle Height=75 Width=75>
                         <SVG_Download Color="var(--whiteText)" Width=40 Height=40/>
@@ -174,7 +174,7 @@
                     <p>Escribe tu contraseña maestra para crear tu bóveda.</p>
                 </div>
             </div>
-            <div class="flex-line gap4">
+            <div class="flex-line gap4 jc-center">
                 <div class="flex-column center flex1 height100ps">
                     <GradientRectangle Height=75 Width=75>
                         <SVG_Shield Color="var(--whiteText)" Width=40 Height=40></SVG_Shield>
@@ -214,7 +214,7 @@
     </div>
 </BackgroundLinearGradient>
 <Background Styles="min-height:200px; border-top: 1px solid color-mix(in oklch, var(--black) 100%, white)">
-    <div class="flex-line contentSpacing totalWidth ai-flexStart gap4">
+    <div class="footer">
         <div class="flex1">
             <div class="flex-line ai-center">
                 <div class="iconApp">

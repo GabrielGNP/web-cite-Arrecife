@@ -1,4 +1,4 @@
-<div class="styleBackground" style="@Styles" id=@Id>
+<div class="styleBackground @Class" style="@Styles" id=@Id>
     @ChildContent
 </div>
 
@@ -9,6 +9,9 @@
 
     [Parameter]
     public string? Styles {get; set;}
+
+    [Parameter]
+    public string? Class {get; set;}
 
     [Parameter]
     public string? Id {get; set;}

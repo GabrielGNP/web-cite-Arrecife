@@ -35,6 +35,13 @@
     filter: blur(4rem);
 }
 
+@media(max-width: 900px){
+    .first-flash[b-y1ybs8mo8k],
+    .second-flash[b-y1ybs8mo8k]{
+        width: 100%;
+    }
+
+}
 /* /Components/BackgroundLinearGradient/BackgroundLinearGradient.razor.rz.scp.css */
 .backgroundLinearGradient[b-zsus72iwuf]{
     background: var(--background);
@@ -73,6 +80,12 @@
     margin-block: 30px;
     margin-inline: 10px;
 }
+
+@media(max-width: 900px){
+    .blackButton[b-wwqe3c333r]{
+        margin-block: 10px;
+    }
+}
 /* /Components/Button/Button.razor.rz.scp.css */
 .ButtonTransparent[b-wne60mb2ri] {
     background: transparent;
@@ -103,6 +116,16 @@
 .squareCard:hover[b-6g19xr893y]{
     box-shadow: -2px 2px 5px color-mix(in oklch, var(--cyanColorBase) 50%, transparent), 
                 2px 2px 5px color-mix(in oklch, var(--purpleColorBase) 90%, transparent);    
+}
+
+
+@media(max-width: 900px){
+    .squareCard[b-6g19xr893y]{
+        width: 200px;
+        height: fit-content;
+        padding: 10px;
+    }
+
 }
 /* /Components/Circle/Circle.razor.rz.scp.css */
 .circle[b-0jy4qzao4r]{
@@ -184,6 +207,63 @@
 .gradientRectangle[b-d6ic9p5wf9]{
     position: relative;
 }
+/* /Components/MenuMovil/MenuMovil.razor.rz.scp.css */
+.backMenuMovil[b-k6wtxeeft4]{
+    position: fixed;
+    top: 0px;
+    background: color-mix(in oklch, var(--black) 70%, transparent);
+    width: 100%;
+    height: 100%;  
+    z-index: 11; 
+}
+.backMenuMovil.False[b-k6wtxeeft4]{
+    display: none;
+}
+.menuMovil[b-k6wtxeeft4]{
+    position: fixed;
+    top: 10px;
+    z-index: 12;
+    left:0px;
+    width: 250px;
+    height: 90dvh;
+    background: var(--patchBackground);
+    border-bottom-right-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    transition: 1s;
+    padding-block: 20px;
+    padding-inline: 15px;
+}
+.menuMovil.False[b-k6wtxeeft4]{
+    left:-300px;
+}
+.menuMovil .options[b-k6wtxeeft4]{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.menuMovil .options .aNav[b-k6wtxeeft4]{
+    margin: 5px;
+    
+    padding: 15px;
+    border-radius: var(--radius);
+    font-size: 17px;
+}
+
+.menuMovil .options .aNav:hover[b-k6wtxeeft4]{
+    background: color-mix(in oklch, var(--black) 50%, transparent);
+}
+
+.appName[b-k6wtxeeft4] {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.footerMenuMovil[b-k6wtxeeft4]{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
 /* /Components/NavBar/NavBar.razor.rz.scp.css */
 .navBar[b-metm05gy16] {
     position: fixed;
@@ -210,7 +290,7 @@
     align-items: center;
     
 }
-.first-space-navBar .appName[b-metm05gy16] {
+.appName[b-metm05gy16] {
     font-size: 25px;
     margin-left: 10px;
 }
@@ -218,4 +298,16 @@
     display: flex;
     align-items: center;
     gap: calc(var(--spacing) * 8);
+}
+
+@media (max-width: 800px) {
+    .navBar[b-metm05gy16]{
+        box-sizing: border-box;
+    }
+    .content-navBar[b-metm05gy16]{
+        justify-content: space-between;
+    }
+    .second-space-navBar[b-metm05gy16]{
+        display: none;
+    }
 }
