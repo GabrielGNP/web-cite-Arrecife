@@ -1,17 +1,17 @@
-﻿@using Web_Cite_Arrecife.Components.ColoredButton;
-@using Web_Cite_Arrecife.Components.MenuMovil
-@using Web_Cite_Arrecife.Components.SVGs
-@using Web_Cite_Arrecife.Services
+﻿@using Arrecife_Website.Components.ColoredButton;
+@using Arrecife_Website.Components.MenuMovil
+@using Arrecife_Website.Components.SVGs
+@using Arrecife_Website.Services
 @inject NavigationService NavService
 
 <div class="navBar glass-effect">
     <div class="content-navBar">
-        <div class="first-space-navBar">
+        <a class="first-space-navBar" @onclick='() => NavService.GoToSection("id_principalContent")'>
             <div class="iconApp">
                 <SVG_Arrecife Color="var(--whiteText)" Width="40" Height="40"/>
             </div>
-            <a class="gradientText appName" @onclick='() => NavService.GoToSection("id_principalContent")'>Arrecife</a>
-        </div>
+            <span class="gradientText appName" >Arrecife</span>
+        </a>
         <div class="second-space-navBar">
             <a class="aNav" href="" @onclick='() => NavService.GoToSection("id_features")'>Características</a>
             <a class="aNav" href="" @onclick='() => NavService.GoToSection("id_security")'>Seguridad</a>

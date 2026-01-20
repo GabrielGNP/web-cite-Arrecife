@@ -1,4 +1,4 @@
-.blackButton[b-wwqe3c333r]{
+.blackButton[b-sg1xr8tc47]{
     background: black;
     color: white;
     font-size: calc(0.85rem *1.2);
@@ -9,7 +9,7 @@
 }
 
 @media(max-width: 900px){
-    .blackButton[b-wwqe3c333r]{
+    .blackButton[b-sg1xr8tc47]{
         margin-block: 10px;
     }
 }

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Components;
 
-namespace Web_Cite_Arrecife.Services;
+namespace Arrecife_Website.Services;
 
 public class NavigationService
 {

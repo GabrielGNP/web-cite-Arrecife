@@ -1,4 +1,4 @@
-.ButtonTransparent[b-wne60mb2ri] {
+.ButtonTransparent[b-h7lz8m1bmx] {
     background: transparent;
     border: 1px var(--black) solid;
     color: white;
@@ -10,7 +10,7 @@
 
     transition: 0.25s;
 }
-.coloredButton:hover[b-wne60mb2ri]{
+.coloredButton:hover[b-h7lz8m1bmx]{
     background: color-mix(in oklab, var(--cyanColorBase) 60%, transparent);
     color: var(--background);
 }

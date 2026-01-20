@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jh8I4XgeLfw=",
+  "dgSpecHash": "T6PfHGa2lQ0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabip\\OneDrive\\Desktop\\Trabajo\\GSmart\\Arrecife\\Web Cite\\Web Cite Arrecife\\Web Cite Arrecife.csproj",
+  "projectFilePath": "C:\\Users\\gabip\\OneDrive\\Desktop\\Trabajo\\GSmart\\Arrecife\\Web Cite\\Arrecife Website\\Arrecife Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabip\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.19\\microsoft.aspnetcore.authorization.7.0.19.nupkg.sha512",
     "C:\\Users\\gabip\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.19\\microsoft.aspnetcore.components.7.0.19.nupkg.sha512",

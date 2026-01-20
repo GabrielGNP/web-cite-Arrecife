@@ -1,5 +1,5 @@
 
-.reactiveDialog[b-f1qvybxfvo]{
+.reactiveDialog[b-howouwm124]{
     position: fixed;
     width: 100vw;
     top: 0;
@@ -8,7 +8,7 @@
     
     background: color-mix(in oklch, black 50%, transparent);
 }
-.mainContent[b-f1qvybxfvo]{
+.mainContent[b-howouwm124]{
     position: absolute;
     width: var(--dialogDimension);
     top: calc(50% - 100px);
@@ -29,7 +29,7 @@
     color:var(--text);
 }
 
-.closeButton[b-f1qvybxfvo]{
+.closeButton[b-howouwm124]{
     position: absolute;
     top: -20px;
     right: -10px;
@@ -43,7 +43,7 @@
     color: var(--text);
     transition: 0.5s;
 }
-.closeButton:hover[b-f1qvybxfvo]{
+.closeButton:hover[b-howouwm124]{
     box-shadow: -5px -5px 10px 0.5px color-mix(in oklch, var(--cyanColorBase) 70%, transparent),
                 5px 5px 10px 0.5px color-mix(in oklch, var(--purpleColorBase) 70%, transparent);
     color: var(--whiteText);

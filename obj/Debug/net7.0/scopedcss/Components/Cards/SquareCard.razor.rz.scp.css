@@ -1,4 +1,4 @@
-.squareCard[b-6g19xr893y]{
+.squareCard[b-0dy1aak9lz]{
     width: 310px;
     height: 275px;
     background: var(--background);
@@ -7,14 +7,14 @@
     box-sizing: border-box;
     transition: 0.5s;
 }
-.squareCard:hover[b-6g19xr893y]{
+.squareCard:hover[b-0dy1aak9lz]{
     box-shadow: -2px 2px 5px color-mix(in oklch, var(--cyanColorBase) 50%, transparent), 
                 2px 2px 5px color-mix(in oklch, var(--purpleColorBase) 90%, transparent);    
 }
 
 
 @media(max-width: 900px){
-    .squareCard[b-6g19xr893y]{
+    .squareCard[b-0dy1aak9lz]{
         width: 200px;
         height: fit-content;
         padding: 10px;
