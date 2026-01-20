@@ -1,3 +1,3 @@
 # Arrecife Website
 
-https://arrecife-website.gabiperero.workers.dev
+arrecife.gabiperero.workers.dev
