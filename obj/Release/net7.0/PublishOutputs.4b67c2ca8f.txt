@@ -1,0 +1,2 @@
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web site\Arrecife_Website\bin\Release\net7.0\publish\emcc-props.json
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web site\Arrecife_Website\bin\Release\net7.0\publish\web.config
