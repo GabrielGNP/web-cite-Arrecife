@@ -839,6 +839,6 @@ C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arreci
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\Web Cite Arrecife.pdb
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\ref\Web Cite Arrecife.dll
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\scopedcss\Components\MenuMovil\MenuMovil.razor.rz.scp.css
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\gml8qidce4-vu6ljsq0bf.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\h2nhwah4ij-mborpj2tz4.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\fhbxigmtjw-k0p9nj3klu.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\gml8qidce4-b3bselov4s.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\h2nhwah4ij-id9t5orqmf.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Release\net7.0\compressed\fhbxigmtjw-2vlyvcd3pv.gz

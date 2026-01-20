@@ -839,6 +839,6 @@ C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arreci
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\BlackButton\BlackButton.razor.rz.scp.css
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\Dialog\ReactiveDialog.razor.rz.scp.css
 C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\scopedcss\Components\MenuMovil\MenuMovil.razor.rz.scp.css
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\gml8qidce4-oaxbx1scag.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\h2nhwah4ij-a6cuy44fx7.gz
-C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\fhbxigmtjw-3wgj8kidcg.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\gml8qidce4-02zvuqgoyg.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\h2nhwah4ij-m1900e9kd0.gz
+C:\Users\gabip\OneDrive\Desktop\Trabajo\GSmart\Arrecife\Web Cite\Web Cite Arrecife\obj\Debug\net7.0\compressed\fhbxigmtjw-4cipwroofc.gz

@@ -355,6 +355,43 @@ button, a{
 
 
 /* === Blazor === */
+#app{
+    background: linear-gradient(145deg,
+        color-mix(in oklch, var(--cyanColorBase) 25%, black),
+        color-mix(in oklch, var(--purpleColorBase) 25%, black)
+    );
+}
+.circleLoading{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(145deg,
+        var(--cyanColorBase),
+        var(--purpleColorBase)
+    );
+    position: absolute;
+    top: calc(100vh / 2 - 50px);
+    left: calc(100vw / 2 - 50px);
+    animation: spin 1.2s linear infinite;
+}
+.contentCircleLoading{
+    background: var(--background);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+    left: calc(100% / 2 - 40px);
+    top: calc(100% / 2 - 40px);
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
